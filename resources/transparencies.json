@@ -1,0 +1,55 @@
+{
+"scene": "Esferes transparents i de colors",
+"typeScene": "VIRTUAL",
+"objects": [
+{
+  "name": "Esfera transparent1",
+  "type": "sphere",
+  "center": [0.0, 1.0, 0.0],
+  "radius": 1.5,
+  "material": {
+    "type": "transparent",
+    "ka": [0.2, 0.2, 0.2],
+    "kd": [0.7, 0.3, 0.3],
+    "ks": [0.5, 0.5, 0.5],
+    "shininess": 10.0,
+    "kt": [0.8, 0.5, 0.5],
+    "dmax" : 50.0,
+    "id" : 0,
+    "nut": 1.0
+    }
+},
+{
+  "name": "Esfera transparent2",
+  "type": "sphere",
+  "center": [1.25, 1.0, 0.0],
+  "radius": 1.5,
+  "material": {
+    "type": "transparent",
+    "ka": [0.2, 0.2, 0.2],
+    "kd": [0.3, 0.3, 0.7],
+    "ks": [0.5, 0.5, 0.5],
+    "shininess": 10.0,
+    "kt": [0.7, 0.7, 1.0],
+    "dmax" : 2.5,
+    "id" : 1,
+    "nut": 1.0
+    }
+},
+{
+  "name": "Esfera gran",
+  "type": "sphere",
+  "center": [0.0,-100.5,-1.0],
+  "radius": 100.0,
+  "material": {
+    "type": "lambertian",
+    "ka": [0.2, 0.2, 0.2],
+    "kd": [0.9, 0.9, 0.9],
+    "ks": [1.0, 1.0, 1.0],
+    "shininess": 10.0,
+    "kt": [0.0, 0.0, 0.0],
+    "nut": 0.0
+    }
+}
+]
+}

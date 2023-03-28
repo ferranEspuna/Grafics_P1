@@ -1,0 +1,40 @@
+{
+"scene": "OneSphere",
+"typeScene": "VIRTUAL",
+"objects": [
+{
+  "name": "Esfera",
+  "type": "sphere",
+  "center": [0.0, 0.0, -1.0],
+  "radius": 0.75,
+  "material": {
+    "type": "lambertian",
+    "ka": [0.2, 0.2, 0.2],
+    "kd": [0.7, 0.2, 0.9],
+    "ks": [1.0, 1.0, 1.0],
+    "shininess": 10.0,
+    "kt": [0.0, 0.0, 0.0],
+    "nut": 0.0,
+    "opacity": 1.0
+    }
+},
+{
+    "type": "FITTEDPLANE",
+    "normal": [0.0, 1.0, 0.0],
+    "point": [0.0, 0.0, -1.0],
+    "pmin": [-1.0, -1.0],
+    "pmax": [1.0, 1.0],
+    "puntoCentro":true,
+  "material": {
+    "type": "lambertian",
+    "ka": [0.2, 0.2, 0.2],
+    "kd": [0.6, 0.4, 0.9],
+    "ks": [1.0, 1.0, 1.0],
+    "shininess": 10.0,
+    "kt": [0.0, 0.0, 0.0],
+    "nut": 0.0,
+    "opacity": 1.0
+    }
+}
+]
+}

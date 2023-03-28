@@ -1,0 +1,24 @@
+{
+"scene": "OneCylinder",
+"typeScene": "VIRTUAL",
+"objects": [
+{
+  "name": "One Cilynder",
+  "type": "CYLINDER",
+  "radius": 0.5,
+  "h":0.5,
+  "center":[0, -1,-1],
+  "axis":[0, 1, 0],
+  "material": {
+    "type": "lambertian",
+    "ka": [0.2, 0.2, 0.2],
+    "kd": [1.0, 1.0, 1.0],
+    "ks": [1.0, 1.0, 1.0],
+    "shininess": 10.0,
+    "kt": [0.0, 0.0, 0.0],
+    "nut": 0.0,
+    "opacity": 1.0
+    }
+}
+]
+}

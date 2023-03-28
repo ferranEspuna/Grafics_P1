@@ -1,0 +1,27 @@
+{
+    "scene": "cor",
+    "typeScene": "VIRTUAL",
+
+    "objects": [
+
+
+        {
+            "name": "Hiperboloide",
+            "type":  "polynomial",
+            "monomis": ["x2", "y2", "-z2", "-1"],
+
+
+            "material": {
+                "type": "lambertian",
+                "ka": [0.2, 0.2, 0.2],
+                "kd": [1.0, 0.0, 1.0],
+                "ks": [0.7, 0.7, 0.7],
+                "shininess": 10.0,
+                "kt": [0.3, 0.3, 0.3],
+                "nut": 1.5
+
+            }
+        }
+
+    ]
+}

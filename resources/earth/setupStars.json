@@ -1,0 +1,43 @@
+{
+"renderType": "ONLINE",
+"output": "resultat.ppm",
+"camera": {
+    "lookFrom": [0.01, 10.0, 0.01],
+    "lookAt": [0, 0, 0],
+    "vup": [1, 0, 0],
+    "vfov": 45.00,
+    "aspectRatio": 1.0,
+    "pixelsX": 800
+},
+"globalLight": [ 0.4, 0.4, 0.4],
+"lights" : [
+{
+ "type": "pointLight",
+  "Ia": [0.0, 0.0, 0.0],
+  "Id": [1.0, 1.0, 1.0],
+  {
+  "name": "Earth",
+  "type": "sphere",
+  "center": [0.0, 0.2, 0.0],
+  "radius": 1.5,
+  "material": {
+      "type": "MaterialTextura",
+      "ka": [0.2, 0.2, 0.2],
+      "kd": [0.9, 0.1, 0.1],
+      "ks": [0.1, 0.1, 0.1],
+      "shininess": 10.0,
+      "textureFile": "://resources/earth/earth1.png"
+   }
+  } "Is": [0.0, 0.0, 0.0],
+  "a": 0.0,
+  "b": 0.0,
+  "c": 0.0,
+  "position": [0.01, 3.0, 0.01]
+  }
+ ],
+ "background": true,
+ "MAXDEPTH": 1,
+ "colorTopBackground": [0.0, 0.0, 0.05],
+ "colorDownBackground": [ 0, 0, 0]
+ }
+

@@ -1,0 +1,111 @@
+{
+"scene": "AmbientOcclusion",
+"typeScene": "VIRTUAL",
+"objects": [
+{
+  "name": "EsferaGranMig",
+  "type": "sphere",
+  "center": [0.0, 1.0, 0.0],
+  "radius": 1.0,
+  "material": {
+    "type": "lambertian",
+    "ka": [0.1, 0.2, 0.1],
+    "kd": [0.1, 0.8, 0.1],
+    "ks": [0.1, 0.7, 0.1],
+    "shininess": 10.0,
+    "kt": [0.0, 0.0, 0.0],
+    "nut": 0.0
+    }
+},
+{
+"name": "EsferaGranEsquerra",
+"type": "sphere",
+"center": [-2.0, 1.0, 0.0],
+"radius": 1.0,
+"material": {
+  "type": "lambertian",
+  "ka": [0.2, 0.1, 0.1],
+  "kd": [0.8, 0.1, 0.1],
+  "ks": [0.7, 0.1, 0.1],
+  "shininess": 10.0,
+  "kt": [0.0, 0.0, 0.0],
+  "nut": 0.0
+  }
+},
+{
+"name": "EsferaGranDreta",
+"type": "sphere",
+"center": [2.0, 1.0, 0.0],
+"radius": 1.0,
+"material": {
+  "type": "lambertian",
+  "ka": [0.1, 0.1, 0.2],
+  "kd": [0.1, 0.1, 0.8],
+  "ks": [0.1, 0.1, 0.7],
+  "shininess": 10.0,
+  "kt": [0.0, 0.0, 0.0],
+  "nut": 0.0
+  }
+},
+{
+"name": "EsferaPetitaEsquerra",
+"type": "sphere",
+"center": [-1.0, 0.5, 1.0],
+"radius": 0.5,
+"material": {
+  "type": "lambertian",
+  "ka": [0.2, 0.2, 0.1],
+  "kd": [0.7, 0.7, 0.1],
+  "ks": [0.7, 0.7, 0.1],
+  "shininess": 10.0,
+  "kt": [0.0, 0.0, 0.0],
+  "nut": 0.0
+  }
+},
+{
+"name": "EsferaPetitaDreta",
+"type": "sphere",
+"center": [1.0, 0.5, 1.0],
+"radius": 0.5,
+"material": {
+  "type": "lambertian",
+  "ka": [0.1, 0.2, 0.2],
+  "kd": [0.1, 0.7, 0.7],
+  "ks": [0.1, 0.7, 0.7],
+  "shininess": 10.0,
+  "kt": [0.0, 0.0, 0.0],
+  "nut": 0.0
+  }
+},
+{
+"name": "EsferaPetitaCentre",
+"type": "sphere",
+"center": [0.0, 0.5, 2.0],
+"radius": 0.5,
+"material": {
+  "type": "lambertian",
+  "ka": [0.2, 0.2, 0.2],
+  "kd": [0.9, 0.9, 0.9],
+  "ks": [1.0, 1.0, 1.0],
+  "shininess": 10.0,
+  "kt": [0.0, 0.0, 0.0],
+  "nut": 0.0
+  }
+},
+{   "name": "Pla base",
+    "type": "plane",
+    "normal": [0.0, 1.0, 0.0],
+    "point": [0.0, 0.0, -1.0],
+    "material": {
+    "type": "lambertian",
+    "ka": [0.1, 0.1, 0.1],
+    "kd": [0.1, 0.1, 0.1],
+    "ks": [0.0, 0.0, 0.0],
+    "shininess": 10.0,
+    "kt": [0.0, 0.0, 0.0],
+    "nut": 0.0,
+    "opacity": 1.0
+    }
+}
+]
+}

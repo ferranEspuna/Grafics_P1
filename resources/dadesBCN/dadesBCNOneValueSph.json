@@ -1,0 +1,49 @@
+{
+"scene": "dadesBCNOneValue",
+"typeScene": "REALDATA",
+"base" : {
+   "type": "sphere",
+   "center": [0.0, 0.0, 0.0],
+   "radius": 5,
+   "material": {
+   "type": "MaterialTextura",
+   "ka": [0.2, 0.2, 0.2],
+   "kd": [0.9, 0.1, 0.1],
+   "ks": [0.1, 0.1, 0.1],
+   "shininess": 50.0,
+   "textureFile": "://resources/worldPolitic.png"
+    }
+},
+"Real": {
+"minPoint": [-90.0, -180.0],
+"maxPoint": [90.0,  180.0]
+},
+"Virtual": {
+  "minPoint": [-5,  0, -5],
+  "maxPoint": [ 5,  2,  5.31]
+},"properties": [
+{
+"name": "AssistenciaConcerts",
+"gyzmo": "sphere",
+"minValue": 1800,
+"maxValue": 382703,
+"colorMap": "COLOR_MAP_TYPE_PLASMA",
+"material": {
+    "type": "lambertian",
+    "ka": [0.2, 0.2, 0.2],
+    "kd": [0.7,0.6,0.5],
+    "ks": [0.7, 0.7, 0.7],
+     "shininess": 10.0
+
+ },
+"data": [
+    [-5.0, 60.0,  6100],
+    [-20.0, 53.0,  70000],
+    [-20.0, 53.0,  70000],
+    [-17.0, 68.0,  6100],
+    [45.0, 70.0,  50000],
+    [27.0, 30.0,  27000]
+ ]
+ }
+ ]
+}

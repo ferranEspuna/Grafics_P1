@@ -1,0 +1,42 @@
+{
+"scene": "oneBox",
+"typeScene": "VIRTUAL",
+"objects": [
+{
+
+  "name": "One Box",
+  "type": "BOX",
+  "maxPoint":[3,3,3],
+  "minPoint":[0, 0,0],
+  "material": {
+  "type": "lambertian",
+      "ka": [0.2, 0.2, 0.2],
+      "kd": [0.7, 0.6, 0.5],
+      "ks": [0.7, 0.7, 0.7],
+      "shininess": 10.0,
+      "kt": [0.0, 0.0, 0.0],
+      "nut": 0.0
+      }
+},
+{
+
+  "name": "plano",
+  "type": "FITTEDPLANE",
+  "normal": [0.0, 1.0, 0.0],
+  "point": [0.0, 0.0, -1.0],
+  "pmin": [-10.0, -10.0],
+  "pmax": [10.0, 10.0],
+  "puntoCentro":true,
+"material": {
+  "type": "lambertian",
+  "ka": [0.2, 0.2, 0.2],
+  "kd": [0.6, 0.4, 0.9],
+  "ks": [1.0, 1.0, 1.0],
+  "shininess": 10.0,
+  "kt": [0.0, 0.0, 0.0],
+  "nut": 0.0,
+  "opacity": 1.0
+  }
+}
+]
+}

@@ -1,0 +1,37 @@
+{
+"renderType": "VIRTUAL",
+"output": "dadesBCN.ppm",
+"camera": {
+    "lookFrom": [0.0, 11.0, 17.0],
+    "lookAt:": [0, 0, 0],
+    "vup": [0, 0,-1],
+    "vfov": 20.0,
+    "aspectRatio": 1.77,
+    "pixelsX": 1200,
+    "defocusBlur": {
+        "enabled": false,
+        "aperture": 0.0
+    }
+},
+"globalLight": [ 0.5, 0.5, 0.5],
+"lights" : [
+{
+
+
+  "type": "pointLight",
+  "Ia": [0.1, 0.1, 0.1],
+  "Id": [0.4, 0.4, 0.4],
+  "Is": [0.2, 0.2, 0.2],
+  "a": 1,
+  "b": 0.0,
+  "c": 0.0,
+  "position": [-1, 41, 10]
+  }
+ ],
+  "background": false,
+  "MAXDEPTH": 0,
+  "colorTopBackground": [ 1, 1, 1],
+  "colorDownBackground": [0.5, 0.7, 1]
+ }
+
+
